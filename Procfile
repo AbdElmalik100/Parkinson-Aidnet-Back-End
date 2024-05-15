@@ -1,0 +1,1 @@
+web: gunicorn parkinsonsaidnet.wsgi --log-file -
