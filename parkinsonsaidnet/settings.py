@@ -29,7 +29,7 @@ DEBUG = True
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'sh.now', '.vercel.app', '*']
 
 CORS_ALLOW_ALL_ORIGINS = True
-CSRF_TRUSTED_ORIGINS = ['https://parkinson-aidnet-back-end.up.railway.app/',]
+CSRF_TRUSTED_ORIGINS = ['https://parkinson-aidnet-back-end.up.railway.app',]
 
 
 AUTH_USER_MODEL = 'accounts.CustomUser'
